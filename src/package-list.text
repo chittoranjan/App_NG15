@@ -1,5 +1,7 @@
 1. E2E Testing by Cypress: https://docs.cypress.io/guides/end-to-end-testing/protractor-to-cypress#What-you-ll-learn
 2. NgRx Store: https://ngrx.io/guide/store/install
 3. NgRx Effects: https://ngrx.io/guide/effects/install
-4.
+4. Hot Toast: https://www.npmjs.com/package/@ngneat/hot-toast
+5. Translations: https://ngneat.github.io/transloco/docs/getting-started/installation
+6.
 
