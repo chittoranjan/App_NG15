@@ -6,6 +6,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { LogoutComponent } from './pages/logout/logout.component';
 import { RegisterComponent } from './pages/register/register.component';
 import {AuthComponent} from "./auth.component";
+import {StoreModule} from "@ngrx/store";
+import {authReducer} from "./store/reducers";
+import {EffectsModule} from "@ngrx/effects";
+import {AuthEffects} from "./store/effects";
 
 
 @NgModule({
@@ -17,7 +21,10 @@ import {AuthComponent} from "./auth.component";
   ],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    StoreModule.forFeature('auth',authReducer),
+    EffectsModule.forFeature([AuthEffects])
+
   ]
 })
 export class AuthModule { }

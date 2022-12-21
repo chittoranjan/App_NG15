@@ -1,0 +1,12 @@
+-NgRx
+  -RxJs
+    Reactive Programming
+     -Data Stream
+        -Sequence of data
+-Angular
+-Redux
+    -action
+    -reducer
+    -effect => service
+    -selector
+    -state
